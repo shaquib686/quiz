@@ -1,0 +1,56 @@
+body{
+    background-color: #d2def2;
+}
+.form,.head1,.head2,.Name_data,.ID_data,.Class_data,.q1,.q2,.q3,.q4,.q5,.q6,.q7,.q8,.q9,.q10
+,.q11,.q12,.q13,.q14,.q15,.q16,.q17,.q18{
+    align-items: center;
+    background-color: white;
+    padding: 5px 10px 15px 15px;
+    width: 635px;
+    border-radius: 10px;
+}
+.head1{
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.3);
+    z-index: 3;
+    border-top: 5px solid royalblue;
+}
+#logo
+{
+    width: 100px;
+    height: 75px;
+    padding-left: 250px;
+}
+#name
+{
+    border-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+#student_id
+{
+    border-color: transparent;
+    border: none;
+    border-bottom: 1px solid black; 
+}
+#class{
+    border-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;  
+}
+#next1
+{
+    color: white;
+    background-color: blue;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.Name_data input :focus,
+.ID_data input :focus,
+.Class_data input :focus{
+    outline: none;
+    
+}
